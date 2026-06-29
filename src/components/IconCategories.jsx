@@ -1,17 +1,17 @@
 import React from 'react';
-import { Grid3x3, Smartphone, Shirt, Footprints, Watch, Home, ShoppingBag, Gem, Dumbbell, Sparkles } from 'lucide-react';
+import { Grid3x3, Smartphone, Laptop, Shirt, Footprints, Watch, Home, ShoppingBag, Gem, Sparkles } from 'lucide-react';
 
 const CATEGORIES = [
-  { id: 'all',            label: 'All Categories',  Icon: Grid3x3 },
-  { id: 'electronics',   label: 'Electronics',      Icon: Smartphone },
-  { id: "men's fashion", label: 'Fashion',           Icon: Shirt },
-  { id: 'footwear',      label: 'Footwear',          Icon: Footprints },
-  { id: 'watches',       label: 'Watches',           Icon: Watch },
-  { id: 'home & living', label: 'Home & Living',     Icon: Home },
-  { id: 'bags',          label: 'Bags',              Icon: ShoppingBag },
-  { id: 'jewellery',     label: 'Jewellery',         Icon: Gem },
-  { id: 'sports',        label: 'Sports',            Icon: Dumbbell },
-  { id: 'beauty',        label: 'Beauty',            Icon: Sparkles },
+  { id: 'all',                label: 'All Categories',  Icon: Grid3x3 },
+  { id: 'smartphones',        label: 'Phones',          Icon: Smartphone },
+  { id: 'laptops',            label: 'Laptops',         Icon: Laptop },
+  { id: 'mens-shirts',        label: 'Men\'s Fashion',  Icon: Shirt },
+  { id: 'womens-dresses',     label: 'Women\'s Fashion',Icon: ShoppingBag },
+  { id: 'mens-shoes',         label: 'Footwear',        Icon: Footprints },
+  { id: 'mens-watches',       label: 'Watches',         Icon: Watch },
+  { id: 'home-decoration',    label: 'Home Decor',      Icon: Home },
+  { id: 'womens-jewellery',   label: 'Jewellery',       Icon: Gem },
+  { id: 'fragrances',         label: 'Beauty',          Icon: Sparkles },
 ];
 
 export default function IconCategories({ selectedCategory = 'all', onSelectCategory = () => {} }) {

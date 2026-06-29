@@ -4,12 +4,12 @@ import { PackageX, ArrowRight, X } from 'lucide-react';
 import { formatINR } from '../utils/currency';
 
 const FILTER_TABS = [
-  { id: 'all',              label: 'All' },
-  { id: 'electronics',      label: 'Electronics' },
-  { id: 'mobile',           label: 'Mobile' },
-  { id: "men's fashion",    label: "Men's" },
-  { id: "women's fashion",  label: "Women's" },
-  { id: 'jewellery',        label: 'Jewellery' },
+  { id: 'all',                label: 'All' },
+  { id: 'smartphones',        label: 'Phones' },
+  { id: 'laptops',            label: 'Laptops' },
+  { id: 'mens-shirts',        label: "Men's" },
+  { id: 'womens-dresses',     label: "Women's" },
+  { id: 'womens-jewellery',   label: 'Jewellery' },
 ];
 
 export default function ProductList({
